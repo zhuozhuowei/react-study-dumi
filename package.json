@@ -4,7 +4,9 @@
   "description": "A react library developed with dumi",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "homepage": "https://zhuozhuowei.github.io/react-study-dumi",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "npm run dev",
     "dev": "dumi dev",
     "build": "father build",
@@ -70,5 +72,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "stylelint": "^14.9.1"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
